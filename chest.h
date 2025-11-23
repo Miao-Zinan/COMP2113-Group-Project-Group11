@@ -4,11 +4,16 @@
 
 #include <vector>
 #include "pos.h"
+#include "Player.h"
 
 std::vector<pos> generate_chests(std::vector<std::vector<char>>& maze, int difficulty, const std::vector<pos>& wallPositions);
 bool meet_chest(pos pos_player, std::vector<pos> pos_chests);
 std::vector<pos> clear_chest(pos pos_player, std::vector<pos> pos_chests);
-void benefit();
+void benefit(Player* player);  // Updated to take Player pointer
+
+// Global functions defined in GameManager.cpp
+extern void stop_ghost();
+extern void mingdao();
 
 #endif
 
