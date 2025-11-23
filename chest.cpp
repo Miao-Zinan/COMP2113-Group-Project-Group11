@@ -7,9 +7,7 @@
 #include <atomic>
 #include "chest.h"
 #include "pos.h"
-// #include "map.h" //调用 map - to be implemented
-// #include "ghost.h" //调用ghost - to be implemented
-// #include "player.h" //调用player - to be implemented
+#include "Player.h"
 using namespace std;
 
 vector<pos> generate_chests(vector<vector<char>>& maze, int difficulty, const vector<pos>& wallPositions){
@@ -84,18 +82,17 @@ vector<pos> clear_chest(pos pos_player, vector<pos> pos_chests){ // pos_player i
 }
 
 
-void mingdao() {
-    ghostProtection = true; // open the protection mode
-    std::thread( {
-        std::this_thread::sleep_for(std::chrono::seconds(3));
-        ghostProtection = false; // close the protection mode after three seconds
-    }).detach();
-}
+// These functions are now defined in GameManager.cpp
+extern void stop_ghost();
+extern void mingdao();
 
-
-void benefit(){
-    switch (rand() % 3 + 1) { // randomly returns 1/2/3, each one is associated with a kind of benefit
-        case 1: increasePlayerHealth(); break; // the first benefit: add one blood to the player
+void benefit(Player* player) {
+    if (!player) return;
+    
+    std::random_device rd;
+    std::mt19937 gen(rd());
+    switch (gen() % 3 + 1) { // randomly returns 1/2/3, each one is associated with a kind of benefit
+        case 1: player->increasePlayerHealth(); break; // the first benefit: add one blood to the player
         case 2: stop_ghost(); break; // the second benefit: stop ghost for three seconds
         case 3: mingdao(); break; // the third benefit: can't be hurt by the ghost for three seconds
     }
