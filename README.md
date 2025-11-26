@@ -41,7 +41,8 @@ Maze Game is a modular C++17 terminal application that renders ANSI-colored maze
 ## Compilation & Execution
 1. Ensure a C++17-capable toolchain (e.g., `clang++` or `g++`) is available on macOS/Linux. No third-party libraries are required.
 2. From the project root run `make` to build the terminal executable described in `makefile`.
-3. Launch the game with `./main`. Interact via the keyboard controls listed above; progress is stored in `savegame.txt`. Play the game in fullscreen mode for best experience!!!!!!!!
+3. Launch the game with `./main`. Interact via the keyboard controls listed above; progress is stored in `savegame.txt`.
+**N.B. Play the game in fullscreen mode for best experience!**
 
 ## Code Requirements Coverage
 - **Generation of random events**: `maze_generate.cpp`, `chest_generate.cpp`, and `chest.cpp` use `std::mt19937` to randomize mazes, chest slots, and chest rewards.
