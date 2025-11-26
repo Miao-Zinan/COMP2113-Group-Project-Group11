@@ -2,7 +2,7 @@
 # Team Members
 Gong Zihan 
 
-Guo Xinrui 
+Guo Xinrui 3036292520
 
 He Jixiang 
 
