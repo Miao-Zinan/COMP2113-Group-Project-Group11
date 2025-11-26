@@ -4,15 +4,10 @@
 
 # Team Members
 Gong Zihan   
-
 Guo Xinrui   3036292520
-
 He Jixiang   3036290871
-
 Miao Zinan   3036292829
-
 Sun Gao      3036292491
-
 Xiao Jingzhe 3036253689
 
 ## Application Description
