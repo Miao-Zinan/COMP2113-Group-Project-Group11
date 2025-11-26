@@ -3,7 +3,7 @@
 # Shadow Maze
 
 # Team Members
-Gong Zihan   
+Gong Zihan   3036291461
 Guo Xinrui   3036292520\n
 He Jixiang   3036290871\n
 Miao Zinan   3036292829\n
