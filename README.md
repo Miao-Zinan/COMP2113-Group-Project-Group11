@@ -1,6 +1,5 @@
-# COMP2113-Group-Project-Group11
-
 # Shadow Maze
+COMP2113 Group Project Group 11
 
 # Team Members
 - Gong Zihan   3036291461
