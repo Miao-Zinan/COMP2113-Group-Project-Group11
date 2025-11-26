@@ -29,7 +29,7 @@ Maze Game is a modular C++17 terminal application that renders ANSI-colored maze
 - Depth-first-search maze generator with BFS validation, additional passage drilling, and open-area pruning for replayable layouts.
 - Player health system with damage, healing caps, shield indicator, and spawnpoint teleportation.
 - Ghost manager that instantiates patrol, hunter, random, and teleport ghosts; movement automatically continues using timers and respects temporary freeze/shield. In Easy mode, ghosts are slow random walkers (G); in Medium mode, ghosts include random walkers (G), patrol guards (P), and hunters (H); in Hard mode, ghosts are fast and include random walkers (G), hunters (H), patrol guards (P), and teleporting ghosts (T). states.
-- Chest subsystem that scatters loot off the main path, removes claimed chests, and randomly issues health boosts, global ghost freeze, or shield buffs.
+- Chest subsystem that scatters loot off the main path, removes claimed chests. Chests grant one of three random benefits: increase your health by one (only if not at full health), freeze all ghosts for three seconds, or make you invincible for three seconds—during which the player turns blue for visual indication.
 - Save/load pipeline that writes the entire maze, metadata, and entity positions to disk via atomic file swaps.
 - Pause overlay plus throttled rendering to prevent flicker while keeping the simulation deterministic.
 
