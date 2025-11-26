@@ -3,12 +3,12 @@
 # Shadow Maze
 
 # Team Members
-Gong Zihan   3036291461
-Guo Xinrui   3036292520\n
-He Jixiang   3036290871\n
-Miao Zinan   3036292829\n
-Sun Gao      3036292491\n
-Xiao Jingzhe 3036253689\n
+- Gong Zihan   3036291461
+- Guo Xinrui   3036292520
+- He Jixiang   3036290871
+- Miao Zinan   3036292829
+- Sun Gao      3036292491
+- Xiao Jingzhe 3036253689
 
 ## Application Description
 Maze Game is a modular C++17 terminal application that renders ANSI-colored mazes directly in the console. Players pick a difficulty, explore a fully procedural labyrinth, dodge autonomous ghosts, collect random chests, and optionally teleport back to a user-marked spawnpoint. The loop supports saving/loading progress so a run can be resumed at any time.
