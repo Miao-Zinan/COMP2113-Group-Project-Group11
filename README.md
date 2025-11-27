@@ -10,7 +10,7 @@ COMP2113 Group Project Group 11
 - Xiao Jingzhe 3036253689
 
 ## Demonstration Video
-Link: https://connecthkuhk-my.sharepoint.com/:v:/g/personal/sungao_connect_hku_hk/EatBAMfx5ohInjd5sfy7UXkBQAVd6d3dAyPMZXxmZPrGrw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gg5oJK
+Link: https://github.com/Miao-Zinan/COMP2113-Group-Project-Group11
 
 ## Application Description
 Maze Game is a modular C++17 terminal application that renders ANSI-colored mazes directly in the console. Players pick a difficulty, explore a fully procedural labyrinth, dodge autonomous ghosts, collect random chests, and optionally teleport back to a user-marked spawnpoint. The loop supports saving/loading progress so a run can be resumed at any time.
