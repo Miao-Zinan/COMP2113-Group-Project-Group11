@@ -13,7 +13,7 @@ COMP2113 Group Project Group 11
 Link: https://www.youtube.com/watch?v=7ib0bivkeeg
 
 ## Application Description
-Maze Game is a modular C++17 terminal application that renders ANSI-colored mazes directly in the console. Players pick a difficulty, explore a fully procedural labyrinth, dodge autonomous ghosts, collect random chests, and optionally teleport back to a user-marked spawnpoint. The loop supports saving/loading progress so a run can be resumed at any time.
+Shadow Maze is a modular C++17 terminal application that renders ANSI-colored mazes directly in the console. Players pick a difficulty, explore a fully procedural labyrinth, dodge autonomous ghosts, collect random chests, and optionally teleport back to a user-marked spawnpoint. The loop supports saving/loading progress so a run can be resumed at any time.
 
 ## Gameplay Loop
 - **Objective**: Reach the exit tile before losing all health to ghosts. Collect chests for buffs and optionally mark a spawnpoint for emergency teleports.
